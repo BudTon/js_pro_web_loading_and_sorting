@@ -1,8 +1,8 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
+var __webpack_exports__ = {};
 
-;// ./src/js/sortTab/Tab.js
-/* eslint-disable no-unused-vars */
+;// CONCATENATED MODULE: ./src/js/sortTab/Tab.js
 // import { filmList } from "./filmList.js";
 class Tab {
   constructor(element) {
@@ -46,7 +46,7 @@ class Tab {
     });
   }
 }
-;// ./src/js/sortTab/filmList.js
+;// CONCATENATED MODULE: ./src/js/sortTab/filmList.js
 const filmList = [{
   id: 26,
   title: "Побег из Шоушенка",
@@ -73,7 +73,7 @@ const filmList = [{
   imdb: 8.9,
   year: 1994
 }];
-;// ./src/js/sortTab/sortTab.js
+;// CONCATENATED MODULE: ./src/js/sortTab/sortTab.js
 function sortTab(filmList, key, direction) {
   let filmSortList = [];
   filmSortList = filmList.sort(function (a, b) {
@@ -95,7 +95,7 @@ function sortTab(filmList, key, direction) {
   });
   return filmSortList;
 }
-;// ./src/js/app.js
+;// CONCATENATED MODULE: ./src/js/app.js
 
 
 
@@ -144,9 +144,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (listKey.length === i) i = 0;
   }, 3000);
 });
-;// ./src/index.js
+;// CONCATENATED MODULE: ./src/index.js
 
 
 /******/ })()
 ;
-//# sourceMappingURL=main.js.map
