@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 // import { filmList } from "./filmList.js";
 export default class Tab {
   constructor(element) {
@@ -40,7 +39,7 @@ export default class Tab {
       item.insertAdjacentElement("beforeEnd", filmElementYear);
       const filmElementImdb = document.createElement("td");
       filmElementImdb.innerHTML = `imdb: ${Number(item.dataset.imdb).toFixed(
-        2
+        2,
       )}`;
       item.insertAdjacentElement("beforeEnd", filmElementImdb);
       this._element.appendChild(item);
