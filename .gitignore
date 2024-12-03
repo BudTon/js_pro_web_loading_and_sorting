@@ -1,7 +1,5 @@
 dist
 doc
-.vscode
-.idea
 
 # Logs
 logs
@@ -83,3 +81,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+node_modules
